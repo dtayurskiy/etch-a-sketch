@@ -10,7 +10,12 @@ body {
     width: 500px;
     display: flex;
     flex-wrap: wrap;
-    
+    border-width: 10px;
+    border-color: black;
+}
+
+.black {
+    background-color: black;
 }
 
 .grid-item {

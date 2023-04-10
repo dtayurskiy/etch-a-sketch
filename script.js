@@ -1,6 +1,13 @@
-const main = document.getElementById('grid-container');
+
+createGrid(16);
+let gridItems = document.querySelectorAll('.grid-item');
+
+gridItems.forEach(div => div.addEventListener('mousedown', function(e) {
+    makeBlack(e);
+}))
 
 function createGrid(sizeOfGrid) {
+    const main = document.getElementById('grid-container');
     const numOfSq = sizeOfGrid * sizeOfGrid;
     const size = 500 / sizeOfGrid;
     for (i = 0; i < numOfSq; i++) {
@@ -12,4 +19,8 @@ function createGrid(sizeOfGrid) {
     }
 }
 
-createGrid(16);
+function makeBlack(e) {
+    e.target.classList.add('black');
+}
+
+
