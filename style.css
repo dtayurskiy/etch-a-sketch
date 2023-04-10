@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid-container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.grid-item {
+    
+    
+}
