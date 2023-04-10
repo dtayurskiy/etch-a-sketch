@@ -6,8 +6,8 @@ body {
 }
 
 #grid-container {
-    height: 500px;
-    width: 500px;
+    height: 750px;
+    width: 750px;
     display: flex;
     flex-wrap: wrap;
     border-width: 1px;
