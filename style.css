@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 
 #grid-container {
@@ -10,8 +10,10 @@ body {
     width: 500px;
     display: flex;
     flex-wrap: wrap;
-    border-width: 10px;
+    border-width: 1px;
     border-color: black;
+    border-style: solid
+
 }
 
 .black {
@@ -20,5 +22,9 @@ body {
 
 .grid-item {
     
-    
+}
+
+.button {
+    margin: 10px;
+    margin-bottom: -10px;
 }
